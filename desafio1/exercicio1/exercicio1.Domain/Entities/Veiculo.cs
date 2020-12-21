@@ -6,7 +6,7 @@ namespace exercicio1.Domain.Entities
 {
     public class Veiculo : Notifiable
     {
-        public Veiculo(string marca, string modelo, string placa, string cor, float km, int litrosCombustivel, int velocidade, double preco)
+        public Veiculo(string marca, string modelo, string placa, string cor, float km, int litrosCombustivel, double preco)
         {
             AddNotifications(new Contract()
                 .Requires()
@@ -87,15 +87,13 @@ namespace exercicio1.Domain.Entities
         //     Console.WriteLine("O veículo foi pintado de " + this.Cor);
         // }
 
-        // public void Ligar()
-        // {
-        //     if (!IsLigado)
-        //     {
-        //         this.isligado = true;
-
-        //         Console.WriteLine("Veículo ligado!");
-        //     }           
-        // }
+        public void Ligar()
+        {
+            if (IsLigado.Equals(EVeiculoIsLigado.Desligado))
+            {
+                IsLigado = EVeiculoIsLigado.Ligado;
+            }           
+        }
 
         // public void Desligar()
         // {
