@@ -40,53 +40,6 @@ namespace exercicio1.Domain.Entities
         public int Velocidade { get; private set; }
         public double Preco { get; private set; }
 
-        public int Acelerar()
-        {
-            if(IsLigado.Equals(EVeiculoIsLigado.Ligado))
-            {
-                return this.Velocidade = this.Velocidade + 20;
-            }
-            else
-            {
-                return this.Velocidade;
-            }
-            
-        }
-
-        // public void Abastecer(int combustivel)
-        // {
-        //     if (this.LitrosCombustivel + combustivel > 60)
-        //     {
-        //         Console.WriteLine("Quantidade ultrapassa limite de 60 litros!");
-        //     }
-        //     else
-        //     {
-        //         this.litrosCombustivel = this.litrosCombustivel + combustivel;
-
-        //         Console.WriteLine("Tem " + this.LitrosCombustivel + " litros no tanque de combustivel");
-        //     }            
-        // }
-
-        // public void Frear()
-        // {
-        //     if (this.Velocidade > 0){
-        //         this.velocidade = this.velocidade - 20;
-
-        //         Console.WriteLine("Velocidade = " + this.Velocidade);
-        //     }
-        //     else
-        //     {
-        //         Console.WriteLine("Veículo está parado");
-        //     }
-        // }
-
-        // public void Pintar(string cor)
-        // {
-        //     this.cor = cor;
-
-        //     Console.WriteLine("O veículo foi pintado de " + this.Cor);
-        // }
-
         public void Ligar()
         {
             if (IsLigado.Equals(EVeiculoIsLigado.Desligado))
@@ -95,18 +48,43 @@ namespace exercicio1.Domain.Entities
             }           
         }
 
-        // public void Desligar()
-        // {
-        //     if (IsLigado && this.Velocidade == 0)
-        //     {
-        //         this.isligado = false;
+        public void Desligar()
+        {
+            if (IsLigado.Equals(EVeiculoIsLigado.Ligado) && this.Velocidade == 0)
+            {
+                this.IsLigado = EVeiculoIsLigado.Desligado;
+            }
+        }
 
-        //         Console.WriteLine("Veículo desligado!");
-        //     }
-        //     else
-        //     {
-        //         Console.WriteLine("Veículo já está desligado ou está em movimento");
-        //     }
-        // }
+        public void Acelerar()
+        {
+            if(IsLigado.Equals(EVeiculoIsLigado.Ligado))
+            {
+                this.Velocidade = this.Velocidade + 20;
+            }
+        }
+
+        public void Frear()
+        {
+            if (this.Velocidade > 0 && this.IsLigado.Equals(EVeiculoIsLigado.Ligado)){
+                this.Velocidade = this.Velocidade - 20;
+            }
+        }
+
+        public void Pintar(string cor)
+        {
+            if(!string.IsNullOrWhiteSpace(cor))
+            {
+                this.Cor = cor;
+            }
+        }
+
+        public void Abastecer(int combustivel)
+        {
+            if ((this.LitrosCombustivel + combustivel) <= 60 && this.IsLigado.Equals(EVeiculoIsLigado.Desligado))
+            {
+                this.LitrosCombustivel = this.LitrosCombustivel + combustivel;
+            }
+        }
     }
 }
