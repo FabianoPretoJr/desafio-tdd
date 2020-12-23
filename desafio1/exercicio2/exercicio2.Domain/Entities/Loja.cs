@@ -1,16 +1,26 @@
 using System;
 using System.Collections.Generic;
+using Flunt.Notifications;
+using Flunt.Validations;
 
 namespace exercicio2.Domain.Entities
 {
-    public class Loja
+    public class Loja : Notifiable
     {
-        public Loja(string nome, string cNPJ, List<Livro> livros, List<Videogame> videogame)
+        public Loja(string nome, string cnpj, List<Livro> livros, List<Videogame> videogames)
         {
+            AddNotifications(new Contract()
+                .Requires()
+                .IsNotNull(nome, "Nome", "Nome inválido")
+                .IsNotNull(cnpj, "CNPJ", "CNPJ inválido")
+                .IsNotNull(livros, "Livros", "Livros inválidos")
+                .IsNotNull(videogames, "Videogames", "Videogames inválidos")
+            );
+
             Nome = nome;
-            CNPJ = cNPJ;
+            CNPJ = cnpj;
             Livros = livros;
-            Videogames = videogame;
+            Videogames = videogames;
         }
 
         public string Nome { get; private set; }
@@ -18,27 +28,23 @@ namespace exercicio2.Domain.Entities
         public List<Livro> Livros { get; private set; }
         public List<Videogame> Videogames { get; private set; }
         
-        public void ListarLivros()
+        public List<Livro> ListarLivros()
         {
             if(this.Livros != null)
             {
-                for (int i = 0; i < this.Livros.Count; i++)
-                {
-                    Livro l = this.Livros[i];
-                    Console.WriteLine("\nTítulo: " + l.Nome + ", preço: " + l.Preco.ToString("C") + ", quantidade: " + l.Quantidade + " em estoque.");
-                }
+                return Livros;
             }
+
+            return null;
         }
 
-        public void ListarVideogames()
+        public List<Videogame> ListarVideogames()
         {
             if (this.Videogames != null){
-                for (int i = 0; i < this.Videogames.Count; i++)
-                {
-                    Videogame v = this.Videogames[i];
-                    Console.Write("\nTítulo: " + v.Nome + ", preço: " + v.Preco.ToString("C") + ", quantidade: " + v.Quantidade + " em estoque.");
-                }
+                return Videogames;
             }
+
+            return null;
         }
 
         public double CalcularPatrimonio()
