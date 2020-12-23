@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "044/LO+dS4z7OMP9Hgm0RY2d01mh5IswWLHzP3mKFyiU3t0qSuAtp4EuBPf7+/ILWhH99gjMfpBcqNKrrPN4Uw==",
+  "dgSpecHash": "j7ZPztMkcqg04nb+xbeNepqJ/WwOTfjl4am2+TAm4riXqgSBvmQp0iQIRcdYG9s1YRSsYzExSWRuutomOB5oPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\FOEU\\My Private Documents\\Projetos\\desafio-tdd\\projetos\\desafio1\\exercicio2\\exercicio2.Tests\\exercicio2.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FOEU\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\FOEU\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
