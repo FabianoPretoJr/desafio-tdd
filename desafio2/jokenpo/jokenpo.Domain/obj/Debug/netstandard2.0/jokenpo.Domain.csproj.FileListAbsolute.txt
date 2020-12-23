@@ -1,0 +1,9 @@
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\bin\Debug\netstandard2.0\jokenpo.Domain.deps.json
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\bin\Debug\netstandard2.0\jokenpo.Domain.dll
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\bin\Debug\netstandard2.0\jokenpo.Domain.pdb
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\obj\Debug\netstandard2.0\jokenpo.Domain.csprojAssemblyReference.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\obj\Debug\netstandard2.0\jokenpo.Domain.AssemblyInfoInputs.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\obj\Debug\netstandard2.0\jokenpo.Domain.AssemblyInfo.cs
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\obj\Debug\netstandard2.0\jokenpo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\obj\Debug\netstandard2.0\jokenpo.Domain.dll
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio2\jokenpo\jokenpo.Domain\obj\Debug\netstandard2.0\jokenpo.Domain.pdb
