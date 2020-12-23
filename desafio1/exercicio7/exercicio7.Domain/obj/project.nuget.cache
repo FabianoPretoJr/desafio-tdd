@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TObYBQS7H8opzX+ygFWzFszlAW9/+fKLik/bq2dAHy5FaJuXqrI/FVg1UHVP+hcoN82v6Y+Xf4/QD1BSz7wQfg==",
+  "dgSpecHash": "UksVVhMmf2JJXEbOodi+Z1gpM17/EipFwzIf6JO+7CxxjSLJHfqi7kLX03xYaEc8RyfY5gDT5SRRUWuKrt4M1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FOEU\\OneDrive - GFT Technologies SE\\Desktop\\Projetos\\exercicios-poo\\exercicio7\\exercicio7.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\FOEU\\My Private Documents\\Projetos\\desafio-tdd\\projetos\\desafio1\\exercicio7\\exercicio7.Domain\\exercicio7.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FOEU\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\FOEU\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
