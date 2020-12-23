@@ -1,0 +1,9 @@
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\bin\Debug\netstandard2.0\exercicio3.Domain.deps.json
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\bin\Debug\netstandard2.0\exercicio3.Domain.dll
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\bin\Debug\netstandard2.0\exercicio3.Domain.pdb
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\obj\Debug\netstandard2.0\exercicio3.Domain.csprojAssemblyReference.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\obj\Debug\netstandard2.0\exercicio3.Domain.AssemblyInfoInputs.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\obj\Debug\netstandard2.0\exercicio3.Domain.AssemblyInfo.cs
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\obj\Debug\netstandard2.0\exercicio3.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\obj\Debug\netstandard2.0\exercicio3.Domain.dll
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio1\exercicio3\exercicio3.Domain\obj\Debug\netstandard2.0\exercicio3.Domain.pdb
