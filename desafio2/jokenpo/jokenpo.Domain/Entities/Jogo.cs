@@ -8,11 +8,12 @@ namespace jokenpo.Domain.Entities
         {
             JogadorP1 = jogadorP1;
             JogadorP2 = jogadorP2;
+            Resultado = null;
         }
 
         public Jogador JogadorP1 { get; private set; }
         public Jogador JogadorP2 { get; private set; }
-        private string Resultado { get; set; }
+        public string Resultado { get; private set; }
 
         public void AvaliarVencedor()
         {
