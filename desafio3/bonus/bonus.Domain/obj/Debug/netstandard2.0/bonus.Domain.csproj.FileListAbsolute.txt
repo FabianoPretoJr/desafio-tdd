@@ -1,0 +1,9 @@
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\bin\Debug\netstandard2.0\bonus.Domain.deps.json
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\bin\Debug\netstandard2.0\bonus.Domain.dll
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\bin\Debug\netstandard2.0\bonus.Domain.pdb
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\obj\Debug\netstandard2.0\bonus.Domain.csprojAssemblyReference.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\obj\Debug\netstandard2.0\bonus.Domain.AssemblyInfoInputs.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\obj\Debug\netstandard2.0\bonus.Domain.AssemblyInfo.cs
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\obj\Debug\netstandard2.0\bonus.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\obj\Debug\netstandard2.0\bonus.Domain.dll
+C:\Users\FOEU\My Private Documents\Projetos\desafio-tdd\projetos\desafio3\bonus\bonus.Domain\obj\Debug\netstandard2.0\bonus.Domain.pdb

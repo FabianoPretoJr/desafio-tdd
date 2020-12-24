@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Mwzx8wV1lIicUaSfgxx0d5dxjopOrSMhmA8/+UJYWVBfF3Oyh6OXJO58T77itJJ0qdPok6HuYmA+U5adQbB0bw==",
+  "dgSpecHash": "jsKIGAhCdvZvTFIJP/4mSA0JKLFJAAeqN9zcUwTU+wqIp/blN0B92JF0YuggGgvRDugcxAhEqzsolwS+QVBOcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\FOEU\\My Private Documents\\Projetos\\desafio-tdd\\projetos\\desafio3\\bonus\\bonus.Tests\\bonus.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FOEU\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\FOEU\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\FOEU\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
